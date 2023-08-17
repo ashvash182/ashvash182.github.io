@@ -26,7 +26,7 @@ export default function Home() {
           Hey!
         </p>
         <p className='mb-4 text-justify'>
-          I&apos;m Ansh, a software engineer and student based in Berkeley, CA with an interest in deep learning, full-stack engineering, and system design. 
+          I&apos;m Ansh, a student at UC Berkeley studying Data and Computer Science, with an interest in deep learning, full-stack engineering, and system design. 
         </p>
         <p>
           This site is still in development,
