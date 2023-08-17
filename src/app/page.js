@@ -30,7 +30,7 @@ export default function Home() {
         </p>
         <p>
           This site is still in development,
-          but here I'll be posting my personal projects and assorted thoughts on technology and other things I'm interested in.
+          but here I'll be posting my personal projects and assorted thoughts on technology in addition to other things I'm interested in.
         </p>
         <p class='mb-4 text-justify'>
           Some of my most recent experiences involve developing and optimizing recursive machine learning models for demand forecasting and supply chain management, as well as deploying
