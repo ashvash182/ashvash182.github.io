@@ -8,8 +8,9 @@ import Image from 'next/image'
 import Link from "next/link";
 import './globals.css'
 
+let projectSize = 250
+
 export default function Home() {
-  let projectSize = 250
   return (
     <main class="space-y-4 flex flex-col items-center min-h-screen justify-between p-24">
       <div class='mb-4 image-cropper rounded-2xl'>
@@ -21,7 +22,7 @@ export default function Home() {
           Ansh Vashisth
         </p>
         <br></br>
-        <p className='mb-4 text-center'>
+        <p class='mb-4 text-center'>
           Hey!
         </p>
         <p className='mb-4 text-justify'>
@@ -42,7 +43,7 @@ export default function Home() {
           Feel free to browse some of my projects below. Thanks for stopping by!
         </p>
       </div>
-      <div class='mb-4 flex flex-row items-center space-x-3'>
+      <div class='mb-4 carousel w-250 h-250 carousel-center items-center space-x-3'>
         <Link href='https://github.com/ashvash182/themeify'>
           <figure>
             <Image src= {singleblob} alt="themeify project" width={projectSize} height={projectSize} className='rounded-2xl carousel-item mr-8' layout='Fill'/>
