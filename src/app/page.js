@@ -26,7 +26,7 @@ export default function Home() {
           Hey!
         </p>
         <p className='mb-4 text-justify'>
-          I&apos;m Ansh, a student at UC Berkeley studying Data and Computer Science with an interest in deep learning applications and full-stack development.
+          I&apos;m Ansh, a student at UC Berkeley studying Data and Computer Science with an interest in machine learning applications and full-stack development.
         </p>
         <p>
           This site is still in development,
